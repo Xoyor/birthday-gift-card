@@ -1,0 +1,97 @@
+*{
+    font-family: 'Happy Monkey';
+    margin:0px;
+    padding:0px;
+    color: #ffffff;
+}
+
+body{
+    background:linear-gradient(#a2d2ff,#EFB0C9);
+}
+
+h1, h2, h4{
+    margin:5px;
+    text-shadow:0px 0px 1px #000000 ;
+}
+
+#hbd-age{
+    background-color: #EFB0C9;
+    padding:5px 10px;
+    border-radius: 5px;
+}
+
+#hbd-date{
+    background-color: #EFB0C9;
+    padding:5px 8px;
+    border-radius:5px;
+}
+
+#bff-img{
+    width: 120px;
+    height: 130px;
+    border:5px solid #EFB0C9;
+    border-radius:50%;
+    margin:10px;
+
+}
+
+#header{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items:center;
+}
+
+.gift-section{
+    margin: 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gf-font{  
+    margin: 10px;
+}
+
+.gf-cover{
+    background-image: url(https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z2lmdCUyMGNvdmVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60);
+    background-size:cover;
+    background-position:center;
+    margin: 10px;
+    width:400px;
+    height: 350px;
+    border: 4px solid #ffffff;
+    border-radius: 10px;
+}
+
+#gf-cover5{
+    height:200px;
+}
+
+#gf-cover1:hover{
+    background-image: url(https://media3.giphy.com/media/chzz1FQgqhytWRWbp3/200w.webp?cid=ecf05e47r1l81wju7xl9nfmzjpfrcddl9yx6uwgpn4v3aftg&ep=v1_gifs_search&rid=200w.webp&ct=g);
+}
+
+#gf-cover2:hover{
+    background-image:url(https://media2.giphy.com/media/l2JeaWUfi9lHyT24U/200.webp?cid=ecf05e471eydtdivh20tquyua20k79k4x6kbtcg5etva5qzd&ep=v1_gifs_search&rid=200.webp&ct=g);
+}
+
+#gf-cover3:hover{
+    background-image:url(https://media1.giphy.com/media/6eyXkeCYdyv1Ot98z6/200.webp?cid=ecf05e47d767kb5ujrq69wagi3yplero2c20xrienjepw385&ep=v1_gifs_search&rid=200.webp&ct=g);
+}
+
+#gf-cover4:hover{
+    background-image:url(https://media0.giphy.com/media/7zQ0psrArYUwrQUi9p/giphy.webp?cid=ecf05e47jxgquuykoyjkm2mns35pma8k4eyud0khfrtc2ox7&ep=v1_gifs_search&rid=giphy.webp&ct=g);
+}
+
+#gf-cover5:hover{
+    background-image:url(https://media4.giphy.com/media/BPJmthQ3YRwD6QqcVD/200w.webp?cid=ecf05e47c43lkzd3py28rk51lsvm628boxvhph85v6j6k18y&ep=v1_gifs_search&rid=200w.webp&ct=g);
+}
+
+footer{
+    text-align:center;
+    font-style:italic;
+    margin:25px;
+}
